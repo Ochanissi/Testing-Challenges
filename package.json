@@ -4,7 +4,7 @@
   "description": "JS testing with Jest",
   "main": "script.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --env=node *.js",
     "jest": "jest --env=node --watch *.js"
   },
   "repository": {
